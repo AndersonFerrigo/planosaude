@@ -1,0 +1,2 @@
+INSERT INTO Beneficiario(ID, nome, telefone, data_nascimento, data_inclusao, data_atualizacao) values(99999, 'Anderson Ferrigo Silva', '11968018090', '1985-11-16', '2024-05-25', '2024-05-25');
+INSERT INTO Documento(ID, tipo_documento, descricao, data_inclusao, data_atualizacao, beneficiario_id) values(66666, 'RG', 'Registro geral', '2023-02-15','2024-05-25', 99999);
